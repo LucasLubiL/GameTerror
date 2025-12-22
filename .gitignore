@@ -7,3 +7,12 @@
 UserSettings/
 MemoryCaptures/
 Recordings/
+
+.vs/
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+
+Assets/**/[Aa]ssets.meta
