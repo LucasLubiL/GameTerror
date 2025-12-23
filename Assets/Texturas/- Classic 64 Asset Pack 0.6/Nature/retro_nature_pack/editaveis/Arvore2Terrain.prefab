@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.797657
+      value: 18.64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
       propertyPath: m_Name
-      value: tree07 (1)
+      value: Arvore2Terrain
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
       propertyPath: m_IsActive
@@ -63,6 +63,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7170724751962310737}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9127683980627396507}
   m_SourcePrefab: {fileID: 100100000, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}
 --- !u!1 &4856964757816021272 stripped
 GameObject:
@@ -93,12 +96,35 @@ LODGroup:
     renderers:
     - renderer: {fileID: 6370231476714778829}
     - renderer: {fileID: 6024113891000921423}
-  - screenRelativeHeight: 0.029650971
+  - screenRelativeHeight: 0.026589772
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6370231476714778829}
     - renderer: {fileID: 6024113891000921423}
   m_Enabled: 1
+--- !u!136 &9127683980627396507
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4856964757816021272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.49
+  m_Height: 3.45
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.35, z: 0.03}
 --- !u!23 &6024113891000921423 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -7187747420940205818, guid: 307ad3a74744ebc45ae3aa3509179172, type: 3}

@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cfcb8665b94f7354f80016e4808f8372, type: 3}
       propertyPath: m_Name
-      value: tree07 1
+      value: Arvore3Terrain
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfcb8665b94f7354f80016e4808f8372, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7962661323053382951}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cfcb8665b94f7354f80016e4808f8372, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1814665156252018060}
   m_SourcePrefab: {fileID: 100100000, guid: cfcb8665b94f7354f80016e4808f8372, type: 3}
 --- !u!23 &152800408393971169 stripped
 MeshRenderer:
@@ -105,3 +108,26 @@ LODGroup:
     - renderer: {fileID: 711765850911729763}
     - renderer: {fileID: 152800408393971169}
   m_Enabled: 1
+--- !u!136 &1814665156252018060
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360174176592677302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.4
+  m_Height: 4.26
+  m_Direction: 1
+  m_Center: {x: -0.05, y: 1.7684562, z: 0.011977583}
